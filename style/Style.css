@@ -1,0 +1,70 @@
+/*заголовка */
+.header-title {
+    color: blue;
+    font-size: 24px;
+    border: 2px solid black;
+}
+/*параграф*/
+.paragraph-text {
+    color: green;
+    font-size: 18px;
+    border: 1px dashed gray;
+}
+/*цитата*/
+.blockquote-style {
+    color: darkred;
+    font-size: 16px;
+    border: 1px solid red;
+    padding: 10px;
+}
+/*стилі для flex-контейнера */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flex-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flex-container li {
+    margin: 10px 0;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flex-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flex-container li {
+    margin: 10px 0;
+}
+
+/*Flexbox в секції з анекдотами */
+.flex-anekdote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
